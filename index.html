@@ -6,6 +6,7 @@
       <title>Assignment-08</title>
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"crossorigin="anonymous">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+      <link rel="stylesheet" href="./css/styles.css">
    </head>
    <body>
       <div id="app-container">
@@ -25,24 +26,25 @@
         </div>
 
         <div class="info-title">
-          <span class="info-header">
-            <p>more about the solrod team</p>
+          <p class="info-title__heading">more about the solrod team</p>
         </div>
 
-        <div class="main_info">
-          <h1>We help artists make a living doing what they love</h1>
-          <p>
-            Solrod Strand is a beach in Denmark known for its murky water, chunky and, and excessive sea moss.  But here, it's a place where dreams come true. Collaborate with us and we'll find a custom marketing and distribution solutions for your creations.  Selling Big doesnt have to mean selling out.
-          </p>
+        <div class="main_info jumbotron">
+          <div class="main-info__whole container">
+            <h1 class="main-info__header">We help artists make a living doing what they love</h1>
+            <p>
+              Solrod Strand is a beach in Denmark known for its murky water, chunky and, and excessive sea moss.  But here, it's a place where dreams come true. Collaborate with us and we'll find a custom marketing and distribution solutions for your creations.  Selling Big doesnt have to mean selling out.
+            </p>
+        </div>
         </div>
 
         <div class="main-staff container">
 
           <div class="row">
-            <div class="col-sm-12 col-md-3">
+            <div class="col-sm-12 col-md-3 main-profile">
               <div class="thumbnail">
                 <img src="./assets/solrod-profile-pic-1-eric.png">
-                <div class="caption">
+                <div class="caption profile-info">
                   <h3>Eric Turner</h3>
                   <p>Co-founder / Design Director</p>
                   <p>BFE, WA</p>
@@ -50,13 +52,11 @@
                 </div>
               </div>
             </div>
-          </div>
 
-          <div class="row">
-            <div class="col-sm-12 col-md-3">
+            <div class="col-sm-12 col-md-3 main-profile">
               <div class="thumbnail">
                 <img src="./assets/solrod-profile-pic-2-karen.png">
-                <div class="caption">
+                <div class="caption profile-info">
                   <h3>Karen Kenny</h3>
                   <p>Support</p>
                   <p>Middle of Nowhere, WA</p>
@@ -64,13 +64,11 @@
                 </div>
               </div>
             </div>
-          </div>
 
-          <div class="row">
-            <div class="col-sm-12 col-md-3">
+            <div class="col-sm-12 col-md-3 main-profile">
               <div class="thumbnail">
                 <img src="./assets/solrod-profile-pic-3-lee.png">
-                <div class="caption">
+                <div class="caption profile-info">
                   <h3>Lee Jensen</h3>
                   <p>Engineering Director</p>
                   <p>Bountiful, UT</p>
@@ -78,13 +76,11 @@
                 </div>
               </div>
             </div>
-          </div>
 
-          <div class="row">
-            <div class="col-sm-12 col-md-3">
+            <div class="col-sm-12 col-md-3 main-profile">
               <div class="thumbnail">
                 <img src="./assets/solrod-profile-pic-4-carl.png">
-                <div class="caption">
+                <div class="caption profile-info">
                   <h3>Carl DeCaire</h3>
                   <p>Design</p>
                   <p>Columbus, OH</p>
@@ -92,41 +88,38 @@
                 </div>
               </div>
             </div>
+
           </div>
 
           <div class="row">
-            <div class="col-sm-12 col-md-3">
+            <div class="col-sm-12 col-md-3 main-profile">
               <div class="thumbnail">
                 <img src="./assets/solrod-profile-pic-5-anthony.png">
-                <div class="caption">
-                  <h3>Anthony colangelo</h3>
+                <div class="caption profile-info">
+                  <h3>Anthony Colangelo</h3>
                   <p>Engineering</p>
                   <p>Philadelphia, PA</p>
                   <a href="#">@acolangelo</a>
                 </div>
               </div>
             </div>
-          </div>
 
-          <div class="row">
-            <div class="col-sm-12 col-md-3">
+            <div class="col-sm-12 col-md-3 main-profile">
               <div class="thumbnail">
                 <img src="./assets/solrod-profile-pic-6-cella.png">
-                <div class="caption">
+                <div class="caption profile-info">
                   <h3>Cella Sum</h3>
                   <p>Engineering</p>
-                  <p>Philadelphia, PA/p>
+                  <p>Philadelphia, PA</p>
                   <a href="#">@celllla</a>
                 </div>
               </div>
             </div>
-          </div>
 
-          <div class="row">
-            <div class="col-sm-12 col-md-3">
+            <div class="col-sm-12 col-md-3 main-profile">
               <div class="thumbnail">
                 <img src="./assets/solrod-profile-pic-7-ashkay.png">
-                <div class="caption">
+                <div class="caption profile-info">
                   <h3>Akshay Anikhindi</h3>
                   <p>Support</p>
                   <p>Richmond, VA</p>
@@ -134,13 +127,11 @@
                 </div>
               </div>
             </div>
-          </div>
 
-          <div class="row">
-            <div class="col-sm-12 col-md-3">
+            <div class="col-sm-12 col-md-3 main-profile">
               <div class="thumbnail">
                 <img src="./assets/solrod-profile-pic-8-latoya.png">
-                <div class="caption">
+                <div class="caption profile-info">
                   <h3>LaToya Allen</h3>
                   <p>Engineering</p>
                   <p>Chicago, IL</p>
@@ -150,74 +141,73 @@
             </div>
           </div>
         </div>
+      </div>
 
-        <div class="art-grant-info">
-          <h1>Employee Art Grants</h1>
-          <p>
-            The Solrod Strand Employee Art Grant provides a way for all of our employees to broaden their artistic horizons and pursue personal projects that are burning a fire in their belly.  Here's a look at what they're working on now.
-          <p>
-        </div>
+      <div class="art-grant-info">
+        <h1>Employee Art Grants</h1>
+        <p>
+          The Solrod Strand Employee Art Grant provides a way for all of our employees to broaden their artistic horizons and pursue personal projects that are burning a fire in their belly.  Here's a look at what they're working on now.
+        <p>
+      </div>
 
-        <div class="art-projects container">
+      <div class="art-projects container">
 
-          <div class="row">
-            <div class="col-sm-12 col-md-6">
-              <div class="thumbnail">
-                <img src="./assets/employee-project-rock-experience.jpg">
-                <div class="caption">
-                  <h3>The Rock Experience</h3>
-                  <p>Christy Stout</p>
-                </div>
+        <div class="row">
+          <div class="col-xs-12 col-md-6">
+            <div class="thumbnail">
+              <img src="./assets/employee-project-rock-experience.jpg">
+              <div class="caption project-info">
+                <h4>The Rock Experience</h4>
+                <p>Christy Stout</p>
+                <i class="fa fa-chevron-right" aria-hidden="true"></i>
               </div>
             </div>
           </div>
 
-          <div class="row">
-            <div class="col-sm-12 col-md-6">
-              <div class="thumbnail">
-                <img src="./assets/employee-project-handmade-look.jpg">
-                <div class="caption">
-                  <h3>The Handmade Lookbook</h3>
-                  <p>Mollie Silva</p>
-                </div>
+          <div class="col-xs-12 col-md-6">
+            <div class="thumbnail">
+              <img src="./assets/employee-project-handmade-look.jpg">
+              <div class="caption project-info">
+                <h4>The Handmade Lookbook</h4>
+                <p>Mollie Silva</p>
+                <i class="fa fa-chevron-right" aria-hidden="true"></i>
               </div>
             </div>
           </div>
 
-          <div class="row">
-            <div class="col-sm-12 col-md-6">
-              <div class="thumbnail">
-                <img src="./assets/employee-project-neat-co.jpg">
-                <div class="caption">
-                  <h4>Neat Co.</h4>
-                  <p>Carl DeCaire</p>
-                </div>
+          <div class="col-xs-12 col-md-6">
+            <div class="thumbnail">
+              <img src="./assets/employee-project-neat-co.jpg">
+              <div class="caption project-info">
+                <h4>Neat Co.</h4>
+                <p>Carl DeCaire</p>
+                <i class="fa fa-chevron-right" aria-hidden="true"></i>
               </div>
             </div>
           </div>
 
-          <div class="row">
-            <div class="col-sm-12 col-md-6">
-              <div class="thumbnail">
-                <img src="./assets/employee-project-home-studio.jpg">
-                <div class="caption">
-                  <h4>Home Studio</h4>
-                  <p>Nate Hanson</p>
-                </div>
+          <div class="col-xs-12 col-md-6">
+            <div class="thumbnail">
+              <img src="./assets/employee-project-home-studio.jpg">
+              <div class="caption project-info">
+                <h4>Home Studio</h4>
+                <p>Nate Hanson</p>
+                <i class="fa fa-chevron-right" aria-hidden="true"></i>
               </div>
             </div>
           </div>
-        </div>
-
-        <div class="team">
-          <button>Join our team</button>
-        </div>
-
-        <div class="social">
-          <i class="fa fa-instagram" aria-hidden="true"></i>
-          <i class="fa fa-twitter" aria-hidden="true"></i>
-          <i class="fa fa-facebook" aria-hidden="true"></i>
         </div>
       </div>
-   </body>
+
+      <div class="team">
+        <button>Join our team</button>
+      </div>
+
+      <div class="social">
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+        <i class="fa fa-twitter" aria-hidden="true"></i>
+        <i class="fa fa-facebook" aria-hidden="true"></i>
+      </div>
+    </div>
+ </body>
 </html>

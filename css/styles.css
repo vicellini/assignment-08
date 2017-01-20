@@ -1,0 +1,155 @@
+* {
+  box-sizing: border-box; }
+
+img {
+  width: 100%;
+  display: block; }
+
+body {
+  background: #69A77C; }
+
+#app-contaner {
+  font-family: "sans-serif"; }
+
+/* NAV */
+.nav_button {
+  position: relative;
+  top: 0;
+  left: 15px;
+  background: #000;
+  color: #fff;
+  font-size: 18px;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  z-index: 1000;
+  margin: 0; }
+
+/*Thanks Travis!*/
+input[type="checkbox"].nav__toggler {
+  display: block;
+  position: fixed;
+  top: 6px;
+  left: 30px;
+  z-index: 1001;
+  opacity: 0; }
+
+input[type="checkbox"].nav__toggler:checked + .nav__mobile-options {
+  display: block; }
+
+.nav__mobile-options {
+  display: none;
+  position: fixed;
+  top: 30px;
+  left: 30px;
+  z-index: 1002;
+  list-style-type: none;
+  background: #fff;
+  min-width: 150px;
+  font-size: 21px;
+  padding: 0; }
+
+.nav__mobile-options li {
+  color: #000;
+  border: 1px solid #ddd; }
+
+/* page title */
+.info-title {
+  text-align: center;
+  padding-bottom: 40px; }
+
+.info-title__heading {
+  color: #B0B9B2;
+  font-size: 9px;
+  padding: 12px;
+  text-transform: uppercase;
+  border: 2px solid #DADADA;
+  margin: 0 auto;
+  max-width: 275px;
+  position: relative;
+  top: -15px;
+  letter-spacing: 1.25px; }
+
+/* Jumbotron Header */
+.main-info__whole {
+  text-align: center; }
+
+.main-info__header {
+  font-size: 33px;
+  color: #222;
+  padding: 0 10px 20px;
+  font-family: "Palatino"; }
+
+.main-info__whole p {
+  color: #8A8A8A;
+  font-size: 15px;
+  padding: 0 18px 15px; }
+
+/* Profiles */
+.main-profile {
+  margin: 0 auto;
+  width: 290px;
+  text-align: center; }
+
+.thumbnail {
+  padding: 0; }
+
+.main-profile .profile-info {
+  padding: 20px;
+  font-weight: 400; }
+
+.profile-info h3 {
+  font-size: 16px;
+  margin: 0;
+  padding-bottom: 5px;
+  font-weight: 400; }
+
+.profile-info p {
+  margin: 0;
+  padding: 1px 0;
+  font-size: 13px; }
+
+.profile-info a {
+  color: #68DC7C; }
+
+/* Art Grant */
+.art-grant-info {
+  color: #fff;
+  font-weight: 200;
+  text-align: center;
+  padding: 40px; }
+
+.art-grant-info h1 {
+  font-size: 36px;
+  font-family: "Palatino";
+  font-weight: 100;
+  letter-spacing: 2px; }
+
+.art-grant-info p {
+  font-size: 12px;
+  line-height: 2; }
+
+/* ART PROJECTS!!!!!!!!!! */
+.art-projects {
+  text-align: center;
+  font-size: 15px;
+  position: relative; }
+
+.project-info h4 {
+  font-size: 12px;
+  color: #9A9A9A;
+  margin-bottom: 2px; }
+
+.project-info p {
+  color: #E4E4E4;
+  font-size: 12px; }
+
+.project-info i {
+  position: absolute;
+  right: 30px;
+  bottom: 50px;
+  color: #D4D4D4;
+  font-weight: 100; }
+
+/*# sourceMappingURL=styles.css.map */
