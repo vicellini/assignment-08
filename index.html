@@ -18,19 +18,40 @@
             </span>
             <input type="checkbox" class="nav__toggler">
             <ul class="nav__mobile-options">
-               <li>About</li>
-               <li>Contact</li>
-               <li>Portfolio</li>
+               <li>Tour</li>
+               <li>Examples</li>
+               <li>Pricing & Sign Up</li>
+               <li>Log In</li>
+               <li>Help</li>
+               <li>Blog</li>
             </ul>
           </nav>
         </div>
+
+        <nav class="navbar navbar-default">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <div class="nav-bar__left row">
+                <a class="navbar-brand" href="#"><img src="./assets/solrod-logo-fletch.svg"></a>
+                <a class="navbar-brand" href="#">Tour</a>
+                <a class="navbar-brand" href="#">Examples</a>
+                <a class="navbar-brand" href="#">Pricing & Sign Up</a>
+              </div>
+              <div class="nav-bar__right row text-right">
+                <a class="navbar-brand" href="#">Log In</a>
+                <a class="navbar-brand" href="#">Help</a>
+                <a class="navbar-brand" href="#">Blog</a>
+              </div>
+            </div>
+          </div>
+        </nav>
 
         <div class="info-title">
           <p class="info-title__heading">more about the solrod team</p>
         </div>
 
-        <div class="main_info jumbotron">
-          <div class="main-info__whole container">
+        <div class="jumbotron main_info">
+          <div class="container main-info__whole">
             <h1 class="main-info__header">We help artists make a living doing what they love</h1>
             <p>
               Solrod Strand is a beach in Denmark known for its murky water, chunky and, and excessive sea moss.  But here, it's a place where dreams come true. Collaborate with us and we'll find a custom marketing and distribution solutions for your creations.  Selling Big doesnt have to mean selling out.
@@ -143,6 +164,10 @@
         </div>
       </div>
 
+      <div class="small-but-mighty jumbotron">
+        <img src="./assets/solrod-small-but-mighty.png">
+      </div>
+
       <div class="art-grant-info">
         <h1>Employee Art Grants</h1>
         <p>
@@ -159,7 +184,9 @@
               <div class="caption project-info">
                 <h4>The Rock Experience</h4>
                 <p>Christy Stout</p>
-                <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                <div class="thumbnail__view">
+                  <span class="thumbnail__text">View</span><i class="fa fa-chevron-right" aria-hidden="true"></i>
+                </div>
               </div>
             </div>
           </div>
@@ -170,7 +197,9 @@
               <div class="caption project-info">
                 <h4>The Handmade Lookbook</h4>
                 <p>Mollie Silva</p>
-                <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                <div class="thumbnail__view">
+                  <span class="thumbnail__text">View</span><i class="fa fa-chevron-right" aria-hidden="true"></i>
+                </div>
               </div>
             </div>
           </div>
@@ -181,7 +210,9 @@
               <div class="caption project-info">
                 <h4>Neat Co.</h4>
                 <p>Carl DeCaire</p>
-                <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                <div class="thumbnail__view">
+                  <span class="thumbnail__text">View</span><i class="fa fa-chevron-right" aria-hidden="true"></i>
+                </div>
               </div>
             </div>
           </div>
@@ -192,21 +223,23 @@
               <div class="caption project-info">
                 <h4>Home Studio</h4>
                 <p>Nate Hanson</p>
-                <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                <div class="thumbnail__view">
+                  <span class="thumbnail__text">View</span><i class="fa fa-chevron-right" aria-hidden="true"></i>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="team">
-        <button>Join our team</button>
+      <div class="team jumbotron">
+        <button class="team_link"><a href="#">Join our team</a></button>
       </div>
 
       <div class="social">
         <i class="fa fa-instagram" aria-hidden="true"></i>
         <i class="fa fa-twitter" aria-hidden="true"></i>
-        <i class="fa fa-facebook" aria-hidden="true"></i>
+        <i class="fa fa-facebook-official" aria-hidden="true"></i>
       </div>
     </div>
  </body>

@@ -54,6 +54,9 @@ input[type="checkbox"].nav__toggler:checked + .nav__mobile-options {
   color: #000;
   border: 1px solid #ddd; }
 
+.navbar-default {
+  display: none; }
+
 /* page title */
 .info-title {
   text-align: center;
@@ -113,6 +116,10 @@ input[type="checkbox"].nav__toggler:checked + .nav__mobile-options {
 .profile-info a {
   color: #68DC7C; }
 
+/*Small */
+.small-but-mighty {
+  display: none; }
+
 /* Art Grant */
 .art-grant-info {
   color: #fff;
@@ -151,5 +158,128 @@ input[type="checkbox"].nav__toggler:checked + .nav__mobile-options {
   bottom: 50px;
   color: #D4D4D4;
   font-weight: 100; }
+
+.thumbnail__text {
+  display: none; }
+
+/* JOIN DA TEAM */
+.team {
+  text-align: center;
+  background-image: url(../assets/solrod-drawingboard-background.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 120px 0;
+  margin-top: 50px; }
+
+.team_link {
+  width: 100%;
+  padding: 30px;
+  background: #6B819D;
+  font-size: 12px;
+  border: none;
+  outline: 0; }
+
+.team_link a {
+  text-decoration: none;
+  color: #DEE3EA; }
+
+/* Social Links */
+.social {
+  background: #fff;
+  padding: 38px 10px;
+  text-align: left; }
+
+.social i {
+  color: #BCBCBC;
+  font-size: 30px;
+  letter-spacing: 30px; }
+
+@media screen and (min-width: 768px) {
+  .nav_button {
+    display: none; }
+
+  .navbar-default {
+    display: block;
+    background: #000;
+    color: #fff;
+    padding: 10px 0;
+    border: none; }
+
+  .navbar-header {
+    width: 100%;
+    padding: 5px 2px 0; }
+
+  .nav-bar__left {
+    display: inline-block;
+    width: 50%; }
+
+  .nav-bar__right {
+    display: inline-block;
+    width: 50%; }
+
+  .navbar-brand {
+    float: none;
+    line-height: 0;
+    font-size: 15px; }
+
+  .navbar-brand img {
+    display: inline-block;
+    width: 15px;
+    margin-left: 10px; }
+
+  /* Heading */
+  .info-title {
+    padding-top: 40px; }
+
+  /* Jumbotron */
+  .main_info {
+    width: 1140px;
+    margin: 0 auto 40px; }
+
+  .main-info__whole h1 {
+    font-size: 45px; }
+
+  .main-info__whole p {
+    padding: 0 200px 30px;
+    line-height: 2; }
+
+  /* Small But Mighty */
+  .small-but-mighty {
+    display: block;
+    background-image: url(../assets/solrod-team-background.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 75px 0;
+    margin-top: 100px; }
+
+  .small-but-mighty img {
+    margin: 0 auto;
+    width: 325px; }
+
+  /* ART PROJECTS */
+  .project-info i {
+    bottom: 50px;
+    font-size: 12px; }
+
+  .thumbnail__text {
+    display: block;
+    color: #D4D4D4;
+    font-weight: 100;
+    font-size: 12px;
+    position: absolute;
+    bottom: 48px;
+    right: 45px; }
+
+  /* TEAM */
+  .team {
+    margin-bottom: 0; }
+
+  .team_link {
+    width: 350px; }
+
+  /* SOCIAL */
+  .social {
+    text-align: right;
+    padding-right: 200px; } }
 
 /*# sourceMappingURL=styles.css.map */
